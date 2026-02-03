@@ -39,7 +39,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'skibidibud.urls'
+ROOT_URLCONF = 'LearnDjango.urls'
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'skibidibud.wsgi.application'
+WSGI_APPLICATION = 'LearnDjango.wsgi.application'
 
 
 # Database

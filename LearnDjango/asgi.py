@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'skibidibud.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'LearnDjango.settings')
 
 application = get_asgi_application()
